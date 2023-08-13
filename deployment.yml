@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
     name: myapp
-    nameSpace: default
+    namespace: default
     labels:
         app: myapp
         version: 0.0.1

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: myapp
-  nameSpace: default
+  namespace: default
   labels:
       app: myapp
       version: 0.0.1
